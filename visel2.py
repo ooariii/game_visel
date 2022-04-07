@@ -146,10 +146,10 @@ def game():
     lifes = 5
 
     label_text = Label(root, text='Жизни: ', font=('Arial', 20))
-    label_text.place(x=800, y=10)
+    label_text.place(x=700, y=10)
     root.update()
     label_life = Label(root, text='{}'.format(lifes), font=('Arial', 20))
-    label_life.place(x=900, y=10)
+    label_life.place(x=800, y=10)
     root.update()
 
     canvas = Canvas(root, width=width, height=height, bg=color2)
